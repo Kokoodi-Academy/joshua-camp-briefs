@@ -6,6 +6,8 @@ body{
 
 }
 
+/*styling for the header*/
+
 header{
     height: 60px;
     background-color: #181818;
@@ -32,9 +34,11 @@ header nav a {
     text-decoration: none;
 }
 
-header nav a :hover{
+header nav a:hover{
     color: aqua;
 }
+
+/*styling for the layout and aside section*/
 
 .layout{
     display: flex;
@@ -49,4 +53,25 @@ aside {
 
 aside h2{
     font-size: 18px;
+    margin-bottom: 25px;
 }
+
+aside a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+
+    padding: 12px;
+    margin-bottom: 5px;
+
+    border-radius: 6px;
+    border-color: darkblue;
+ 
+}
+
+aside a:hover{
+    background-color: #303030;
+}
+
+/*styling for the main section*/
+
