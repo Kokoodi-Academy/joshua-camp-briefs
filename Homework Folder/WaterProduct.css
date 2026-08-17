@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+.advert {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: Georgia;
+    color: darkblue;
+    font-size: 50px;
+}
+
+img {
+    width: 250px;
+}
+
+h2 {
+    font-family: Arial;
+    color: blue;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 20px;
+    color: darkblue;
+}
+
+button {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    font-family: Arial;
+}
