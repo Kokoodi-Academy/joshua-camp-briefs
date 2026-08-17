@@ -1,6 +1,6 @@
-const title = document.getElementById('title');
-const button = document.getElementById('click');
+const title = document.getElementById("title");
+const button = document.getElementById("click");
 
-button.addEventListener('click',  function (){
-    title.textContent = 'Welcome to My Website';
+button.addEventListener("click",  function (){
+    title.textContent = "Welcome to My Website";
 });
