@@ -1,0 +1,138 @@
+body {
+    background: white;
+    color: #222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.site-header {
+    border-bottom: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.logo {
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span,
+.eyebrow,
+h1 em {
+    color: #d9573f;
+}
+
+nav a {
+    color: #222;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: white;
+    border: 1px solid #222;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+button:hover {
+    background: #222;
+    color: white;
+}
+
+.hero {
+    border-bottom: 1px solid #222;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px 0;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 1;
+}
+
+.intro {
+    max-width: 400px;
+}
+
+.product-stage {
+    background: #f5a04d;
+    min-height: 350px;
+    padding: 20px;
+}
+
+.image-slot img {
+    display: block;
+    height: 280px;
+    margin: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.hero-actions {
+    margin: 25px 0;
+}
+
+.text-link {
+    color: #222;
+    margin-left: 15px;
+}
+
+.ticker {
+    border-bottom: 1px solid #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ticker span {
+    margin: 0 12px;
+}
+
+.details {
+    border-bottom: 1px solid #222;
+    padding: 60px 0;
+}
+
+.feature-list article {
+    border-top: 1px solid #aaa;
+    padding: 20px 0;
+}
+
+.feature-list article p {
+    margin-left: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+@media (max-width: 650px) {
+    nav {
+        display: none;
+    }
+
+    .hero {
+        display: block;
+    }
+
+    .product-stage {
+        margin-top: 40px;
+    }
+
+    footer {
+        display: block;
+    }
+}
