@@ -1,0 +1,157 @@
+body {
+    background: #eef3f8;
+    color: #14213d;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+header {
+    align-items: center;
+    border-bottom: 1px solid #14213d;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #1769aa;
+}
+
+nav a {
+    color: #14213d;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1769aa;
+}
+
+button {
+    background: #d9f25b;
+    border: 1px solid #14213d;
+    color: #14213d;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background: #1769aa;
+    color: white;
+}
+
+.hero {
+    align-items: center;
+    border-bottom: 1px solid #14213d;
+    display: flex;
+    gap: 50px;
+    padding: 80px 0;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 55px;
+    line-height: 1;
+}
+
+.hero-text p {
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+.small-title {
+    color: #1769aa;
+    font-weight: bold;
+}
+
+.laptop-image {
+    background: #c9d8e8;
+    flex: 1;
+    padding: 30px;
+}
+
+.laptop-image img {
+    display: block;
+    max-width: 100%;
+}
+
+.products {
+    border-bottom: 1px solid #14213d;
+    padding: 60px 0;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    border: 1px solid #14213d;
+    flex: 1;
+    padding: 25px;
+}
+
+.product h3 {
+    color: #1769aa;
+}
+
+.product p {
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about {
+    border-bottom: 1px solid #14213d;
+    padding: 60px 0;
+}
+
+.about p {
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+@media (max-width: 700px) {
+    header,
+    .hero,
+    .product-list,
+    footer {
+        display: block;
+    }
+
+    nav {
+        margin: 20px 0;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .hero-text h2 {
+        font-size: 42px;
+    }
+
+    .laptop-image {
+        margin-top: 30px;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+}
